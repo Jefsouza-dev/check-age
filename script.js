@@ -12,6 +12,7 @@ const verificar = () => {
     let idade = ano - Number(fano.value)
     let genero = ''
     let img = document.createElement('img')
+    teste.innerHTML = ''
     img.setAttribute('id', 'foto')
     if (fsex[0].checked) {
         genero = 'Homem'
@@ -35,6 +36,8 @@ const verificar = () => {
         } else {
             img.setAttribute('src', `./img/idosamulher.png`)
         }
+        
+     
     }
     res.style.textAlign = 'center'
     res.innerHTML = `${genero} de ${idade} anos.`
