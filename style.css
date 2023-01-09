@@ -29,6 +29,10 @@ div {
     text-align: center;
 }
 
+#resposta {
+    padding-bottom: 30px;
+}
+
 
 /* img {
     border-radius: 50%;
